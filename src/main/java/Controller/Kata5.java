@@ -10,7 +10,7 @@ import Model.Histogram;
 import Model.Mail;
 import View.HistogramDisplay;
 import View.MailHistogramBuilder;
-import View.MailListReader;
+import View.MailListReaderBD;
 import java.util.List;
 
 /**
@@ -39,7 +39,7 @@ public class Kata5 {
     }
     
     public void input(){
-        maillist = MailListReader.read(filename);
+        maillist = MailListReaderBD.read(filename);
     }
     
     public void process(){
