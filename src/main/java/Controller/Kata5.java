@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Controller;
 
 
@@ -24,13 +20,10 @@ public class Kata5 {
     private Histogram<String> histogram;
     private HistogramDisplay histogramd;
     
-    /**
-     * @param args the command line arguments
-     */
+
     public Kata5(String filename){
         this.filename = filename;
     }
-    
     
     public void execute(){
         input();
